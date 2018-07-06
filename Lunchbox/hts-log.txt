@@ -1,0 +1,33 @@
+HTTrack3.48-22+htsswf+htsjava launched on Thu, 05 Jan 2017 12:29:57 at http://takeurpick.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://takeurpick.com/ -O1 "C:\Users\JSWN\Desktop\temp\test" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:31:11	Error: 	"Not Found" (404) at link takeurpick.com/ms-icon-144x144.png (from takeurpick.com/)
+12:31:55	Warning: 	Retry after error -4 (No data (connection closed)) at link code.jquery.com/jquery-1.10.2.js (from takeurpick.com/)
+12:31:55	Warning: 	Retry after error -4 (No data (connection closed)) at link code.jquery.com/ui/1.10.4/jquery-ui.js (from takeurpick.com/)
+12:32:03	Error: 	"Not Found" (404) at link takeurpick.com/cart.html (from takeurpick.com/)
+12:32:03	Warning: 	Retry after error 500 (Internal Server Error) at link takeurpick.com/index.php/tiffinserviceinmumbai/orders (from takeurpick.com/)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/img/bg_pattern.jpg (from takeurpick.com/assets/css/minified.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/img/star.png (from takeurpick.com/assets/css/minified.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/img/AjaxLoader2.gif (from takeurpick.com/assets/css/innerpage.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/img/grabbing.png (from takeurpick.com/assets/css/owl.carousel.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/fonts/glyphicons-halflings-regular.eot (from takeurpick.com/assets/css/bootstrap.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/fonts/glyphicons-halflings-regular.eot? (from takeurpick.com/assets/css/bootstrap.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/fonts/glyphicons-halflings-regular.svg (from takeurpick.com/assets/css/bootstrap.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/images/pagenate.png (from takeurpick.com/assets/css/bootstrap.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/images/single.jpg (from takeurpick.com/assets/css/style.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/assets/images/prevnext.png (from takeurpick.com/assets/css/style.css)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/user/cart.html (from takeurpick.com/user/index)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/tiffinserviceinmumbai/cart.html (from takeurpick.com/tiffinserviceinmumbai/about)
+12:33:05	Error: 	"Not Found" (404) at link takeurpick.com/login/cart.html (from takeurpick.com/login/login_view)
+12:33:06	Warning: 	Retry after error 500 () at link takeurpick.com/index.php/tiffinserviceinmumbai/orders (from takeurpick.com/)
+12:33:06	Error: 	"Not Found" (404) at link themina.net/wp-content/themes/Themina_/animate.css?ver=3.7.1 (from takeurpick.com/assets/fonts/glyphicons-halflings-regular.html)
+12:33:06	Error: 	"Not Found" (404) at link themina.net/wp-content/themes/Themina_/style.css?ver=3.7.1 (from takeurpick.com/assets/fonts/glyphicons-halflings-regular.html)
+12:33:06	Error: 	"" (500) after 2 retries at link takeurpick.com/index.php/tiffinserviceinmumbai/orders (from takeurpick.com/)
+
+HTTrack Website Copier/3.48-22 mirror complete in 3 minutes 8 seconds : 159 links scanned, 136 files written (5867437 bytes overall) [5391493 bytes received at 28678 bytes/sec], 807173 bytes transferred using HTTP compression in 6 files, ratio 32%, 1.2 requests per connection
+(18 errors, 4 warnings, 0 messages)

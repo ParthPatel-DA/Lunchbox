@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LoginMaster.master.cs" Inherits="LoginMaster" %>
+
+<!DOCTYPE html>
+
+<html >
+<head runat="server">
+    <title></title>
+
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <!--[if IE 8]><link href="css/ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-min-js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+
+    <script type="text/javascript" src="js/plugins/charts/excanvas.min.js"></script>
+    <script type="text/javascript" src="js/plugins/charts/jquery.flot.js"></script>
+    <script type="text/javascript" src="js/plugins/charts/jquery.flot.resize.js"></script>
+    <script type="text/javascript" src="js/plugins/charts/jquery.sparkline.min.js"></script>
+    <link rel="shortcut icon" href="../Icon/LunchBox.ico" />
+    <script type="text/javascript" src="js/plugins/ui/jquery.easytabs.min.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.collapsible.min.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/prettify.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.bootbox.min.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.colorpicker.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.timepicker.min.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.fullcalendar.min.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.elfinder.js"></script>
+
+    <script type="text/javascript" src="js/plugins/uploader/plupload.js"></script>
+    <script type="text/javascript" src="js/plugins/uploader/plupload.html4.js"></script>
+    <script type="text/javascript" src="js/plugins/uploader/plupload.html5.js"></script>
+    <script type="text/javascript" src="js/plugins/uploader/jquery.plupload.queue.js"></script>
+
+    <script type="text/javascript" src="js/plugins/forms/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.autosize.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.inputlimiter.min.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.tagsinput.min.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.inputmask.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.select2.min.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.listbox.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.validation.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.validationEngine-en.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.form.wizard.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.form.js"></script>
+
+    <script type="text/javascript" src="js/plugins/tables/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="js/files/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/files/functions.js"></script>
+
+    <script type="text/javascript" src="js/charts/graph.js"></script>
+    <script type="text/javascript" src="js/charts/chart1.js"></script>
+    <script type="text/javascript" src="js/charts/chart2.js"></script>
+    <script type="text/javascript" src="js/charts/chart3.js"></script>
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="no-background">
+    <form id="form1" runat="server">
+        <div>
+            <!-- Fixed top -->
+	        <div id="top">
+		        <div class="fixed">
+			        <a href="#" title="" class="logo"><img src="img/AdminTMW.png" alt="" width="120px" /></a>
+		        </div>
+	        </div>
+	        <!-- /fixed top -->
+        
+            <div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <!-- Footer -->
+	        <div id="footer">
+		        <div class="copyrights">&copy; 2017 TrackMyWork. All rights reserved. | Design by <a href="http://www.renowninfosys.com/" style="color: #ffffff;">Renown Infosys</a>.</div>
+		        <ul class="footer-links">
+			        <li><a href="#" title=""><i class="icon-cogs"></i>Contact admin</a></li>
+			        <li><a href="#" title=""><i class="icon-screenshot"></i>Report bug</a></li>
+		        </ul>
+	        </div>
+	        <!-- /footer -->
+        </div>
+    </form>
+</body>
+</html>

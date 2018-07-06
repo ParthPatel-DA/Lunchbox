@@ -1,0 +1,147 @@
+﻿
+* {
+    padding:0px;
+    margin:0px;
+}
+body {
+    font-family:Verdana;
+    color:black;
+}
+#allmain
+{
+    width:105%;
+    display:inline-block;
+}
+#header
+{
+    color :black;
+	text-align :center ;
+    font-size :30px;
+	width :105%;
+	padding :10px;
+	margin:inherit ;
+	height :200px;
+    background-image:url('img/H2.JPG');
+
+}
+/*#im {
+    height:200px;
+    width: 250px;
+    float: none;
+    background-image: url('img/photo.JPG');
+    background-size: 300px;
+    background-repeat:no-repeat;
+}*/
+#l {
+    height: 4px;
+    width: 105%;
+}
+#link{
+   
+    width :100%;
+	height :50px;
+    display:inline-block;
+    background-color:#B31E20;
+    font-size :20px;
+    text-decoration:none;
+    margin:auto;
+    box-shadow:0px 5px 10px black;
+	text-align:left;
+    
+	
+}
+#link li
+{
+	display :inline ;
+    text-decoration:none;
+    font-family :Calibri;
+    width: 758px;
+    color:#fff;
+	
+}
+#main {
+     width:107%;
+     height:400px;
+     display:inline-block;
+     marquee-direction:reverse;
+     marquee-loop:3;
+     marquee-speed:normal;
+    background-image:url('img/slider3.jpg');
+    background-size:107%;
+}
+#footer {
+    width:105%;
+    background-color:black;
+    color:#fff;
+    height:50px;
+    font-family:Calibri;
+    font-size:10px;
+    padding:10px;
+    text-align:center;
+}
+
+#User{
+ 
+    padding:10px;
+    font-family:Verdana;
+    font-size:14px;
+}
+.FieldSet {
+    width:500px;
+    padding-bottom:5px;
+    height:30px;
+    
+}
+#cust {
+    width: 350px;
+    float: initial;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left:350px;
+    font-family: Calibri;
+    font-size: 10px;
+    text-align:center;
+    height: 450px;
+    border-radius:40px,50px;
+    border-style:outset;
+    box-shadow: 1px 3px 10px #808080;
+    background-color:#4bf702;
+    color: #2a680e;
+ 
+    -webkit-animation-name: myfirstRotate;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+@-webkit-keyframes myfirstRotate
+{
+0%  {-webkit-transform:rotate(5deg); color:White;background-color:#4ed416;}
+50%  {-webkit-transform:rotate(-5deg); color:Black;background-color:#ffffff;}
+100% {-webkit-transform:rotate(5deg);color:White;background-color:#4ed416;}
+}
+#cust1 {
+    width: 105%;
+    height: 470px;
+    display: inline-block;
+    background-image: url('img/Capture.PNG');
+}
+#ga {
+    width: 337px;
+    height: 400px;
+    display: inline-block;
+}
+#m {
+    display: inline-block;
+    width:450px;
+    height:370px;
+    background-color:white;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left:350px;
+    border:2px;
+    border-radius:inherit;
+}
+

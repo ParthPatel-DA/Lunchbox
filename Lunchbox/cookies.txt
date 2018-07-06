@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+takeurpick.com	TRUE	/	FALSE	1999999999	ci_session	a%3A8%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22c68987b000eb8a80683a7abf9e4b09d2%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22103.210.37.123%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F4.5+%28compatible%3B+HTTrack+3.0x%3B+Windows+98%29%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1483599597%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A4%3A%22page%22%3Bb%3A0%3Bs%3A6%3A%22search%22%3Bs%3A2%3A%22no%22%3Bs%3A16%3A%22tiffin_vendor_id%22%3Bb%3A0%3B%7D99a9ab12ff044dd4e051c76a22c46a76
+

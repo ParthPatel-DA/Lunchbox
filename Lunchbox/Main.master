@@ -1,0 +1,795 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="takeurpick" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>LunchBox| Tiffin Service in Surat(Surat Tiffin Service)</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../assets/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="../assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.html" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Marketplace for Tiffin Services in Mumbai.Mumbai Tiffin Service.Choose from Veg Tiffin in Mumbai to Non veg Tiffin in Mumbai to Jain Tiffin In Mumbai.Tiffin For Office and Catering Orders too.So Pick.Order.Eat.">
+    <meta name="keywords" content="Tiffin service in Mumbai,Mumbai tiffin service,Tiffin services Mumbai,Mumbai tiffin services,healthy tiffin mumbai,Dabba Service,Lunch Boxes Delivery ,tiffin delivery in mumbai,Diet tiffins in mumbai,
+tiffin service in bandra,tiffin service in andheri">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- GENERAL CSS FILES -->
+    <link href="../code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" />
+    <link href="../code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="../assets/css/minified.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/cs-select.css" />
+    <link rel="stylesheet" href="../assets/css/jquery.nouislider.css" />
+    <link rel="stylesheet" href="../assets/css/isotope.css" />
+    <link rel="stylesheet" href="../assets/css/innerpage.css" />
+    <link rel="stylesheet" href="../assets/css/owl.carousel.css" />
+    <link rel="stylesheet" href="../assets/css/owl.theme.css" />
+    <link href="../assets/css/flexslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link href="../assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="../assets/css/animate.css" rel='stylesheet' type='text/css' />
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- GENERAL JS FILES -->
+    <script src="../assets/js/selectFx.js"></script>
+    <script src="../assets/js/svgcheckbx.js"></script>
+    <script src="../ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <script src="../code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="../code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!--Animation-->
+    <script src="../assets/js/modernizr.min.js"></script>
+    <script src="../assets/js/modernizr.custom.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/jquery.min1.js"><\/script>');</script>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script>
+        new WOW().init();
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
+            });
+        });
+    </script>
+    <script type="text/javascript" src="../assets/js/move-top.js"></script>
+    <script type="text/javascript" src="../assets/js/easing.js"></script>
+    <script src="../assets/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script src="../assets/js/tms-0.4.1.js"></script>
+    <script src="../assets/js/jquery.easydropdown.js"></script>
+    <link rel="shortcut icon" href="Icon/LunchBox.ico" />
+    <style>
+        .header {
+            border-top: 0px solid #5BBD50;
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .menutest {
+            color: #494949;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .grow img {
+            overflow: hidden;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+
+            .grow img:hover {
+                width: 60%;
+                padding-top: 0%;
+            }
+
+        a:hover {
+            color: #5BBD50;
+        }
+
+        .sub-header {
+            display: none;
+            position: absolute;
+            top: 22%;
+            z-index: 1000;
+            right: 0;
+            margin-top: 6px;
+            background: #E24425;
+            color: #fff;
+            box-shadow: 0 0 3px rgba(0,0,0,.15);
+            -webkit-box-shadow: 0 0 3px rgba(0,0,0,.15);
+        }
+
+        #sub-cart {
+            width: 550px;
+        }
+
+        @media screen and (max-width: 1200px) {
+            #sub-cart {
+                width: 250px;
+            }
+        }
+
+        @media screen and (max-width: 750px) {
+            #sub-cart {
+                width: 250px;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            #sub-cart {
+                width: 250px;
+            }
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        .top-menu ul li {
+            display: inline-block;
+            margin: 0 0px;
+            padding: 0px 20px 0px 0px;
+        }
+
+        .header {
+            background: url("<div style="border:1px solid #990000;
+            padding-left: 20px;
+            margin: 0 0 10px 0;
+            "> <h4>A PHP Error was encountered</h4> <p>Severity: Notice</p> <p>Message: Undefined variable: path</p> <p>Filename: views/header.php</p> <p>Line Number: 149</p> </div><div style="border:1px solid #990000;
+            padding-left: 20px;
+            margin: 0 0 10px 0;
+            "> <h4>A PHP Error was encountered</h4> <p>Severity: Notice</p> <p>Message: Undefined variable: image</p> <p>Filename: views/header.php</p> <p>Line Number: 149</p> </div>assets/upload/banner/") no-repeat;
+        }
+
+        .meta-title {
+            background: rgba(0, 0, 0, 0.5);
+            background: rgba(226, 69, 37, 0.8);
+            display: block;
+            color: white;
+            width: 100%;
+            padding: 10px 10px;
+            font-size: 12px;
+        }
+
+        .meta-title-day {
+            background: rgba(255, 255, 255, 1);
+            color: white;
+            //padding: 10px 5px;
+            padding: 8px 16px;
+            font-size: 14px;
+            line-height: 1;
+            font-weight: bold;
+        }
+
+        .populartriptitle {
+            width: 310px;
+            top: 121px;
+            height: 55px;
+            /* background: url(../../img/iti-toptitle-bg.png) repeat-x; */
+            position: absolute;
+            font-size: 15px;
+            color: #fff;
+            font-weight: bold;
+            padding: 10 5px;
+            text-transform: capitalize;
+            -moz-border-top-left-radius: 0px;
+            -webkit-border-top-left-radius: 0px;
+            -o-border-top-left-radius: 0px;
+            -ms-border-top-left-radius: 0px;
+            border-top-left-radius: 0px;
+            -moz-border-top-right-radius: 0px;
+            -webkit-border-top-right-radius: 0px;
+            -o-border-top-right-radius: 0px;
+            -ms-border-top-right-radius: 0px;
+            border-top-right-radius: 0px;
+            z-index: 1;
+        }
+
+        .populartripbottom {
+            background: rgba(0, 0, 0, 0.5);
+            background: rgba(226, 69, 37, 0.8);
+            color: white;
+            width: 100%;
+            padding: 8px 5px;
+            font-size: 16px;
+            position: absolute;
+            top: 196px;
+            -webkit-transform: translateY(10px);
+            -moz-transform: translateY(10px);
+            -o-transform: translateY(10px);
+            -ms-transform: translateY(10px);
+            transform: translateY(10px);
+            width: 100%;
+            -webkit-transition: all .4s ease;
+            transition: all .4s ease;
+        }
+
+        .image-box .box img, .image-box.box img {
+            width: 100%;
+            height: 240px;
+        }
+
+        .populartripdays {
+            height: 40px;
+            position: absolute;
+            font-size: 14px;
+            color: #fff;
+            padding: 10 5px;
+            text-transform: uppercase;
+            -moz-border-top-left-radius: 0px;
+            -webkit-border-top-left-radius: 0px;
+            -o-border-top-left-radius: 0px;
+            -ms-border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: rpx;
+            -moz-border-top-right-radius: 0px;
+            -webkit-border-top-right-radius: 0px;
+            -o-border-top-right-radius: 0px;
+            -ms-border-top-right-radius: 0px;
+            border-top-right-radius: 0px;
+            z-index: 1;
+            top: 127px;
+            border-radius: 11px;
+            text-align: right;
+            //left: 208px;
+            right: 30%;
+            width: 23%;
+        }
+
+        .nbs-flexisel-inner {
+            margin-left: -20px;
+        }
+
+        .nbs-flexisel-nav-left {
+            margin-top: 130px;
+        }
+
+        .nbs-flexisel-nav-right {
+            margin-top: 130px;
+        }
+
+        @media screen and (max-width: 480px) {
+            .nbs-flexisel-nav-right {
+                right: 110px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .nbs-flexisel-nav-left {
+                left: 110px;
+            }
+        }
+
+        .cs-select.cs-active .cs-options {
+            width: 160px;
+            margin-top: 3px;
+            border-radius: 6px;
+        }
+
+        .cs-select span {
+            //font-size:1.2em;
+        }
+
+        .zocalo_logo {
+            background: url(../assets/images/sprit.png) no-repeat 0px -30px;
+            width: 388px;
+            height: 104px;
+            display: inline-block;
+            margin-top: 50px;
+        }
+    </style>
+
+    <style>
+        .login-right p {
+            color: red;
+            display: block;
+            font-size: 1.1em;
+            margin: 1em 0 0 0;
+            line-height: 1.5em;
+        }
+    </style>
+    <style>
+        media="all" @media screen and (max-width: 480px) {
+            .contact-section-grid;
+
+        {
+            width: 55%;
+            margin: 0 0 2em 0;
+        }
+
+        }
+
+        media="all" @media screen and (max-width: 640px) {
+            .contact-section-grid;
+
+        {
+            width: 55%;
+            margin: 0 0 2em 0;
+        }
+
+        }
+    </style>
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #f1f1f1;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+    <style>
+        
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header" style="background: url(../mainimg/main7.jpg) no-repeat;">
+
+            <div class="container" style="margin-top: -15px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; background: rgba(240,240,240,0.6); width: 100% !important; padding-left: 7%; padding-right: 7%;">
+                <div class="top-header">
+                    <!--<div class="logo" >
+               <a href="Home.aspx"><img src="http://takeurpick.com/assets/images/round-logo.png" class="img-re" alt=""  /></a>
+               </div>-->
+                    <div class="queries row" style="float: none">
+                        <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+                            <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
+                                <div class="logo">
+                                    <a href="../Default.aspx">
+                                        <img src="LunchBox.png" class="img-re rotate" alt="" width="40%" style="position: absolute; width: 150px; padding-top: 5px; margin-left: -50px;" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8" style="margin-top: 54px; margin-left: 100px; height: 85px; width: 100%;">
+                                <div class="top-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="Default.aspx">HOME</a>
+                                            <%--<asp:LinkButton ID ="lnkHome" runat="server" postbackurl="#" OnClick ="lnkHome_Click" >Home</asp:LinkButton>--%>
+                                        </li>
+
+                                        <li id="about">
+                                            <a href="Display.aspx?Page=About Us">ABOUT US</a>
+                                            <%-- <asp:LinkButton ID="lnkAbout" runat="server" postbackurl="#" OnClick ="lnkAbout_Click"  >ABOUT US</asp:LinkButton></li>--%>
+                                        <li id="Feedback">
+                                            <a href="Feedback.aspx">FEEDBACK</a>
+                                            <%--<asp:LinkButton ID ="lnkFeedBack" runat="server" postbackurl="#"  OnClick ="lnkFeedBack_Click">FEEDBACK</asp:LinkButton></li>--%>
+                                        <li id="Contectus">
+                                            <a href="ContectUs.aspx">CONTACT_US</a>
+                                            <%--<asp:LinkButton ID ="lnkContectUs" runat="server" postbackurl="#"   OnClick="lnkContectUs_Click">CONTACT_US</asp:LinkButton></li>--%>
+                                            <div class="clearfix"></div>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+                            <%--<script>
+                            function myclass(idr) {
+                                //alert("acd");
+
+                                $('#' + idr).hide();
+
+                                $.get("http://takeurpick.com/user/remove/" + idr);
+                                //alert(idr);
+                            }
+                            </script>--%>
+                            <div class="login-section">
+                                <div>
+                                    <ul style="color: #fff; background: #5BBD50; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; margin-bottom: 15px;">
+                                        <li><%--<a style="color: #fff; font-size: 16px; font-weight: 700;" class="menutest" href="#">Welcome(Visitor)</a>--%>
+                                            <a href="Default.aspx" style="color: #fff; font-size: 16px; font-weight: 700;" class="menutest">Welcome</a>
+                                            <%--<asp:LinkButton ID="LinkButton1" runat="server" style="color: #fff; font-size: 16px; font-weight: 700;" Class="menutest">Welcome(Visitor)</asp:LinkButton>--%>
+                                        </li>
+                                        |
+                          <%-- <li><asp:LinkButton ID="lnklogin" runat="server" style="color: #fff; font-size: 16px; font-weight: 700;" Class="menutest" OnClick ="lnklogin_Click">Login</asp:LinkButton>  
+                                        <div id="subd-login" class="sub-header" style="top: 45px">
+                                   <div class="cart-header" style="background: black">
+                                       <span style="color: rgb(216, 219, 219); font-size: 20px;">serviceProvider</span>
+                                      
+                                   </div>
+                                   <ul class="cart-items product-medialist unstyled clearfix"></ul>
+                                   <div class="cart-footer" id="sh">
+                                       <h4>
+                                           <center>Client</center>
+                                       </h4>
+                                   </div>
+                             </div>     
+                                    
+                               </li>--%>
+                                        <%--   <li data-toggle="sub-header" data-target="#sub-cart">--%>
+                                        <!-- SHOPPING CART -->
+                                        <%--  <a href="javascript:void(0);" id="total" style="color: #fff;">
+                                  <i class="iconfont-shopping-cart round-icon"></i>--%>
+
+                                        <li>
+                                            <a href="ServiceLogin.aspx" style="color: #fff; font-size: 16px; font-weight: 700;" class="menutest">Login</a>
+                                            <%-- <asp:LinkButton ID="lnklogin" runat="server"  style="color: #fff; font-size: 16px; font-weight: 700;" Class="menutest" OnClick ="lnklogin_Click">Login</asp:LinkButton> </li>  --%>
+                                        </li>
+
+
+                                        |
+                      
+                           <li>
+                               <a href="SPform.aspx" style="color: #fff; font-size: 16px; font-weight: 700;" class="menutest">Be Provider</a>
+                               <%--  <asp:LinkButton ID="lnkregi" runat="server" style="color: #fff; font-size: 16px; font-weight: 700;" Class="menutest" OnClick="lnkregi_Click">Register</asp:LinkButton>--%> </li>
+                                        |
+                           <li class="dropdown" style="background-color: transparent;">
+                               <!-- SHOPPING CART -->
+                               <%--<a href="javascript:void(0);" id="total-cart" style="color: #fff;">
+                                   <i class="iconfont-shopping-cart round-icon"></i>
+                              </a> --%>
+
+                               <!-- // SHOPPING CART -->
+                               <i class="iconfont-shopping-cart round-icon dropbtn" style="margin-top: -25px; margin-left: -25px; padding-bottom: 20px; background-color: transparent;"></i>
+                               <div class="dropdown-content" style="width: 800px; margin-right: -50px; background-color: transparent; padding-top: 15px;">
+                                   <div class="col-md-12" style="padding: 0px;">
+                                       <div class="col-md-12 text-center" style="background-color: #E24425; font-size: 20px; padding: 5px;">
+                                           Products on Your Shopping Cart
+                                       </div>
+                                       <div class="col-md-12" style="max-height: 400px; overflow: scroll; background-color: #fff;">
+                                           <table class="table table-responsive" style="color: black; width: 100%;" border="1">
+                                               <tr>
+                                                   <td></td>
+                                                   <td>Item Image</td>
+                                                   <td>Name</td>
+                                                   <td>Price</td>
+                                                   <td>Quentity</td>
+                                                   <td>Amount</td>
+                                                   <td>Cancel</td>
+                                               </tr>
+                                               <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                                               <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                                   <ContentTemplate>
+                                                       <asp:Repeater ID="repitem" runat="server" OnItemCommand="repitem_ItemCommand">
+                                                           <ItemTemplate>
+                                                               <tr style="height: -30px;">
+                                                                   <td>
+                                                                       <asp:CheckBox ID="chkItemSelect" runat="server" Text='<%# Eval("CartID") %>' Style="font-size: 0px;" /></td>
+                                                                   <td style="text-align: center;">
+                                                                       <asp:Image ID="Image2" class="img-responsive" runat="server" ImageUrl='<%# "~/ServiceProvider/Iteam/" + Eval("img") %>' Width="80px" Height="80px" Style="margin: 10px 30px 40px 40px;"></asp:Image>
+                                                                   </td>
+                                                                   <td>
+                                                                       <asp:Label ID="lblproduct" runat="server" Text='<%# Eval("ItemName") %>'></asp:Label>
+                                                                   </td>
+                                                                   <td>
+
+                                                                       <label id="lblprice" style="margin-left: 20px;"><%# Eval("ItemPrice") %> </label>
+                                                                       <%--  <asp:Label ID="lblprice" runat="server" Text='<%# Eval("ItemPrice") %>' Style="margin-left :20px;"></asp:Label>--%>
+                                                                   </td>
+
+                                                                   <td style="width: 150px; padding-left: 0px;">
+                                                                       <div class="col-md-4" style="margin-top: -20px; margin-left: -20px; margin-right: 20px;">
+                                                                           <asp:LinkButton ID="LinkButton1" runat="server" Style="background-color: transparent; color: #E24425; border: 0px solid;" CommandName="itemInc" CommandArgument='<%# Eval("CartID") %>'><i class="glyphicon glyphicon-plus"></i></asp:LinkButton>
+                                                                       </div>
+                                                                       <div class="col-md-2" style="padding: 0px;">
+                                                                           <asp:TextBox ID="txtquan" runat="server" Width="35px"  Height="30px" Text='<%# Eval("Quantity") %>'></asp:TextBox>
+                                                                       </div>
+                                                                       <div class="col-md-4" style="margin-top: -20px; border: 0px solid; padding: 0px; margin-left: 10px;">
+                                                                           <asp:LinkButton ID="LinkButton2" runat="server" pattern="^[\s\S]{0,}$" Style="background-color: transparent; color: #E24425;" CommandName="itemDec" CommandArgument='<%# Eval("CartID") %>'><i class="glyphicon glyphicon-minus"></i></asp:LinkButton>
+                                                                       </div>
+
+                                                                   </td>
+                                                                   <td>
+                                                                       <asp:Label ID="lblTotal" runat="server" Text='<%# Eval("Total") %>'></asp:Label>
+                                                                   </td>
+                                                                   <td>
+                                                                       <asp:LinkButton ID="lnkitem" runat="server" Style="background-color: transparent; margin-top: -15px;" CommandName="diactiveitem" CommandArgument='<%# Eval("CartID") %>'><i class="round-icon" style="border-color: #FFF!important; background: #fff;color: red;margin-top: -5px;">X</i></asp:LinkButton>
+                                                                   </td>
+                                                               </tr>
+                                                           </ItemTemplate>
+                                                       </asp:Repeater>
+                                                       <asp:Repeater ID="repmeal" runat="server" OnItemCommand="repmeal_ItemCommand">
+
+                                                           <ItemTemplate>
+                                                               <tr style="height: -30px;">
+                                                                   <td>
+                                                                       <asp:CheckBox ID="chkItemSelect" runat="server" Text='<%# Eval("CartID") %>' Style="font-size: 0px;" /></td>
+                                                                   <td style="text-align: center;">
+                                                                       <asp:Image ID="Image2" class="img-responsive" runat="server" ImageUrl='<%# "~/ServiceProvider/Meal/" + Eval("imge") %>' Width="80px" Height="80px" Style="margin: 10px 30px 40px 40px;"></asp:Image>
+                                                                   </td>
+                                                                   <td>
+
+                                                                       <asp:Label ID="lblproduct" runat="server" Text='<%# Eval("MealName") %>'></asp:Label>
+                                                                   </td>
+                                                                   <td>
+                                                                       <asp:Label ID="Label2" runat="server" Text='<%# Eval("MealPrice") %>' Style="margin-left: 20px;"></asp:Label>
+                                                                   </td>
+                                                                   <td>
+                                                                       <%--<asp:TextBox ID="txtquan" runat="server" type="number" Height="25px" Width="50px" Style="margin-top: 0px;"></asp:TextBox>--%>
+                                                                       <%-- <asp:TextBox ID="txtQuantity1" runat="server" Text ="0"></asp:TextBox>--%>
+                                                                       <div class="col-md-4" style="margin-top: -20px; margin-left: -20px; margin-right: 20px;">
+                                                                           <asp:LinkButton ID="LinkButton1" runat="server" Style="background-color: transparent; color: #E24425; border: 0px solid;" CommandName="itemInc" CommandArgument='<%# Eval("CartID") %>'><i class="glyphicon glyphicon-plus"></i></asp:LinkButton>
+                                                                       </div>
+                                                                       <div class="col-md-2" style="padding: 0px;">
+                                                                           <asp:TextBox ID="txtquan" runat="server" Width="35px" Height="30px" Text='<%# Eval("Quantity") %>'></asp:TextBox>
+                                                                       </div>
+                                                                       <div class="col-md-4" style="margin-top: -20px; border: 0px solid; padding: 0px; margin-left: 10px;">
+                                                                           <asp:LinkButton ID="LinkButton2" runat="server" Style="background-color: transparent; color: #E24425;" CommandName="itemDec" CommandArgument='<%# Eval("CartID") %>'><i class="glyphicon glyphicon-minus"></i></asp:LinkButton>
+                                                                       </div>
+                                                                   </td>
+                                                                   <td>
+                                                                       <asp:Label ID="lblTotal" runat="server" Text='<%# Eval("Total") %>'></asp:Label>
+                                                                   </td>
+                                                                   <td>
+                                                                       <asp:LinkButton ID="lnkMeal" runat="server" CommandName="diactiveMeal" CommandArgument='<%# Eval("CartID") %>'>   <h3 style="color:red"><i class="round-icon" style="border-color: #FFF!important; background: #fff;color: red;margin-top: -5px;">X</i></h3></asp:LinkButton>
+                                                                   </td>
+                                                               </tr>
+                                                           </ItemTemplate>
+                                                       </asp:Repeater>
+                                                   </ContentTemplate>
+                                               </asp:UpdatePanel>
+                                               <tr style="background: white;">
+                                                   <td style="background-color: #fff; text-align: center;"><b>Order Total:</b></td>
+                                                   <td style="background-color: #fff; text-align: right;" colspan="4"></td>
+                                                   <td><b>
+                                                       <asp:Literal ID="ltrTotalAmount" runat="server"></asp:Literal></b></td>
+                                                   <td style="background-color: #fff;"></td>
+                                               </tr>
+                                           </table>
+                                       </div>
+
+                                       <div class="col-md-12" style="background-color: #808080; padding: 15px;">
+                                           <asp:Button ID="btnOrder" runat="server" Text="Order Now" class='buttont  btn-danger pull-right' Style="margin-right: 20px; background: #E24425" OnClick="btnOrder_Click"></asp:Button>
+                                           <asp:Button ID="btnCheckOut" runat="server" Text="Checkout" Style="margin-right: 20px;" class='buttont btn-success pull-right' OnClick="btnCheckOut_Click" formnovalidate></asp:Button>
+                                           <asp:Button ID="btnClearCart" runat="server" Text="clear cart" class='buttont  btn-danger pull-right' Style="margin-right: 20px; background: #E24425" OnClick="btnClearCart_Click"></asp:Button>
+
+                                       </div>
+                                   </div>
+                               </div>
+                           </li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <!--end of login section-->
+                            <br>
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                <p><span class="list-icon"><i class="round-icon iconfont-phone" style="border: 2px solid #E24425; background: #E24425;"></i></span><span style="color: #000;">9819304104/8898080504 </span></p>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                <p><span class="list-icon"><i class="round-icon iconfont-envelope-alt" style="border: 2px solid #E24425; margin-left: -35px; background: #E24425;"></i></span><span><a href="mailto:lunchboxindia2017@gmial.com" style="color: #000;" target="_blank">lunchboxindia2017@gmial.com</a></span></p>
+                            </div>
+                        </div>
+                        <!--end of ool-sm-6-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-section-grids">
+                    <div class="row">
+
+                        <div class="col-md-2 col-sm-3 col-xs-6 contact-section-grid wow " data-wow-delay="0.4s">
+                            <h4>@Takeurpick</h4>
+                            <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="Display.aspx?Page=About Us">About us</a></li>
+                            </ul>
+                            <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="ContectUs.aspx">Contact us</></li>
+                            </ul>
+                           <%-- <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="../tiffinserviceinmumbai/connect.html#catering">Catering</a></li>
+                            </ul>
+                            <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="../tiffinserviceinmumbai/faq.html">FAQ's</a></li>
+                            </ul>--%>
+                            <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="Feedback.aspx">Feedback</></li>
+                            </ul>
+
+
+
+                        </div>
+                        <div class="col-md-2 col-xs-6 contact-section-grid wow " data-wow-delay="0.4s">
+                            <h4>Policies</h4>
+
+                            <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="Display.aspx?Page=Privacy">Privacy Policy</></li>
+                            </ul>
+                            <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="Display.aspx?Page=Terms">Terms & Conditions</></li>
+                            </ul>
+
+                        </div>
+                       <%-- <div class="col-md-2 col-xs-6 contact-section-grid wow " data-wow-delay="0.4s">
+                            <h4>Business</h4>
+                            <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="../tiffinserviceinmumbai/connect.html#corporate">Corporate Connect</a></li>
+                            </ul>
+                            <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="../tiffinserviceinmumbai/connect.html#catering">Catering Connect</a></li>
+                            </ul>
+                            <ul>
+                                <li><i class="point"></i></li>
+                                <li class="data"><a href="../tiffinserviceinmumbai/new_partner.html">Sell your tiffin online</a></li>
+                            </ul>
+
+                        </div>--%>
+
+                        <div class="col-md-2 col-xs-6 contact-section-grid wow " data-wow-delay="0.4s">
+                            <h4>Follow Us </h4>
+                            <ul>
+                                <li><i class="fb"></i></li>
+                                <li class="data"><a href="https://www.facebook.com/pages/TakeUrPick/716863935095273" target="_blank">Facebook</a></li>
+                            </ul>
+                            <ul>
+                                <li><i class="tw"></i></li>
+                                <li class="data"><a href="https://twitter.com/takeurp" target="_blank">Twitter</a></li>
+                            </ul>
+                            <!-- Mahesh Hiremath Nov 06,2016    -->
+                            <ul>
+                                <li><i class="gp"></i></li>
+                                <li class="data"><a href="https://plus.google.com/u/0/112532876083397514907" target="_blank">Google plus</a></li>
+                            </ul>
+                            <!-- Mahesh Hiremath Nov 06,2016    -->
+                        </div>
+
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content-section-ends -->
+        <!-- footer-section-starts -->
+        <div class="footer">
+            <div class="container">
+                <p class="wow " data-wow-delay="0.4s">&copy; 2017  All rights  Reserved | Designed by &nbsp;<a href="http://www.algonation.com/" target="target_blank">Algonation</a></p>
+            </div>
+
+        </div>
+        <!-- footer-section-ends -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                $().UItoTop({ easingType: 'easeOutQuart' });
+
+            });
+        </script>
+        <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+        <script type="text/javascript" src="assets/js/intro.js"></script>
+        <script src="assets/js/minified.js"></script>
+        <!-- // Essential Javascripts -->
+
+        <!-- Particular Page Javascripts -->
+        <script src="assets/js/owl.carousel.js"></script>
+        <script src="assets/js/jquery.flexslider-min.js"></script>
+        <script src="assets/js/jquery.isotope.min.js"></script>
+        <script src="assets/js/products.js"></script>
+        <script src="assets/js/contact.js"></script>
+        <script src="assets/js/classie1.js"></script>
+
+        <script> 		$(document).ready(function () { $("#index").addClass('active'); });		</script>
+
+
+
+        <!-- Mahesh Hiremath Nov 06,2016 -->
+        <!-- begin olark code -->
+        <%--<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark || (function (c) {
+var f = window, d = document, l = f.location.protocol == "https:" ? "https:" : "http:", z = c.name, r = "load"; var nt = function () {
+    f[z] = function () {
+        (a.s = a.s || []).push(arguments)
+    }; var a = f[z]._ = {
+    }, q = c.methods.length; while (q--) {
+        (function (n) {
+            f[z][n] = function () {
+                f[z]("call", n, arguments)
+            }
+        })(c.methods[q])
+    } a.l = c.loader; a.i = nt; a.p = {
+        0: +new Date
+    }; a.P = function (u) {
+        a.p[u] = new Date - a.p[0]
+    }; function s() {
+        a.P(r); f[z](r)
+    } f.addEventListener ? f.addEventListener(r, s, false) : f.attachEvent("on" + r, s); var ld = function () {
+        function p(hd) {
+            hd = "head"; return ["<", hd, "></", hd, "><", i, ' onl' + 'oad="var d=', g, ";d.getElementsByTagName('head')[0].", j, "(d.", h, "('script')).", k, "='", l, "//", a.l, "'", '"', "></", i, ">"].join("")
+        } var i = "body", m = d[i]; if (!m) {
+            return setTimeout(ld, 100)
+        } a.P(1); var j = "appendChild", h = "createElement", k = "src", n = d[h]("div"), v = n[j](d[h](z)), b = d[h]("iframe"), g = "document", e = "domain", o; n.style.display = "none"; m.insertBefore(n, m.firstChild).id = z; b.frameBorder = "0"; b.id = z + "-loader"; if (/MSIE[ ]+6/.test(navigator.userAgent)) {
+            b.src = "javascript:false"
+        } b.allowTransparency = "true"; v[j](b); try {
+            b.contentWindow[g].open()
+        } catch (w) {
+            c[e] = d[e]; o = "javascript:var d=" + g + ".open();d.domain='" + d.domain + "';"; b[k] = o + "void(0);"
+        } try {
+            var t = b.contentWindow[g]; t.write(p()); t.close()
+        } catch (x) {
+            b[k] = o + 'd.write("' + p().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();'
+        } a.P(2)
+    }; ld()
+}; nt()
+})({
+    loader: "static.olark.com/jsclient/loader0.js", name: "olark", methods: ["configure", "extend", "declare", "identify"]
+});
+            /* custom configuration goes here (www.olark.com/documentation) */
+            olark.identify('5390-705-10-6047');/*]]>*/</script>--%>
+        <noscript><a href="https://www.olark.com/site/5390-705-10-6047/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com/?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+        <!-- end olark code -->
+
+        <!-- Mahesh Hiremath Nov 06,2016 -->
+
+    </form>
+</body>
+</html>
