@@ -768,8 +768,8 @@ public partial class OrderDetail : System.Web.UI.Page
         Session["Email"] = txtemail.Text;
         Session["PhoneNo"] = txtcontact.Text;
         Session["ProductInfo"] = "Lunch Box Order";
-        Session["SuccessURL"] = "http://localhost:52822/Success.aspx";
-        Session["FailureURL"] = "http://localhost:52822/Success.aspx";
+        Session["SuccessURL"] = "http://localhost:58118/Success.aspx";
+        Session["FailureURL"] = "http://localhost:58118/Success.aspx";
         Response.Redirect("PayU/Default.aspx");
     }
 
